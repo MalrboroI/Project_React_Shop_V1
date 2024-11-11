@@ -1,0 +1,7 @@
+/* @import "../node_modules/bootstrap/scss/bootstrap"; */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+
+@import "../styles/sideBar.css";
+@import "../styles/Img.css";
+

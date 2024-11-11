@@ -1,0 +1,36 @@
+:root {
+  --body-color: #ffffff; /* общий фон */
+
+  --title-color: #222222; /* цвет заголовков */
+  --subtitle-color: #42526b; /* цвет подзаголовков */
+
+  --nav-link-color: #222222; /* цвет ссылок в навигации */
+
+  --accent-color: #ff385c; /* основной цвет тем */
+
+  --bg-hover: #f7f7f7;
+
+  --label-color: #717171; /* цвет текста label, placeholder */
+
+  --avatar-bg: #717171; /* цвет аватар */
+}
+
+.hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+hr::after {
+  background: #fff;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.btn-primary {
+  background-color: #222222;
+}

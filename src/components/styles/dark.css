@@ -1,0 +1,32 @@
+:root {
+  --body-color: #292929;
+  /* общий фон */
+
+  --title-color: #ffffff;
+  /* цвет заголовков */
+  --subtitle-color: #b4bbc5;
+  /* цвет подзаголовков */
+
+  --nav-link-color: #ffffff;
+  /* цвет ссылок в навигации */
+
+  --accent-color: #bb86fc;
+  /* основной цвет тем */
+
+  --bg-hover: rgba(255, 255, 255, 0.12);
+
+  --label-color: rgba(255, 255, 255, 0.38);
+  /* цвет текста label, placeholder */
+
+  --avatar-bg: #979797; /* цвет аватар */
+
+  /* dropdown */
+  --dropdown-button-bg: #292929;
+  --dropdown-border-color: rgba(255, 255, 255, 0.3);
+  --dropdown-box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14),
+    0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
+
+  /* footer */
+  --footer-bg: #292929;
+  --footer-link-color: #ffffff;
+}

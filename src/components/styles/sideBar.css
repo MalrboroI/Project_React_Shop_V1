@@ -1,0 +1,63 @@
+/* html {
+  font-size: 62.5%;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home,
+.services,
+.reports,
+.contact,
+.events,
+.support {
+  display: flex;
+  margin-left: 260px;
+  font-size: 2rem;
+  color: white;
+}
+
+/* Sidebar */
+
+.customNavBar {
+  position: fixed;
+  top: 0.8rem;
+  left: 2rem;
+  z-index: 2;
+  font-size: 2rem;
+}
+
+.customSidebarNav {
+  background: #222;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: 350ms;
+  z-index: 10;
+}
+
+.NavIcon {
+  color: white;
+  margin-left: 2rem;
+  font-size: 2rem;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* SubMenu */
+
+.SubMenuFooter {
+  position: fixed;
+  width: 15.6rem;
+  bottom: 0;
+  left: 2rem;
+  transition: 350ms;
+}
